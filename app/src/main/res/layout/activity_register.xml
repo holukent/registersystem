@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <EditText
+        android:id="@+id/UserAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="使用者帳號"/>
+    <EditText
+        android:id="@+id/UserPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="使用者密碼"/>
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="姓名"/>
+
+    <EditText
+        android:id="@+id/Phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="電話"/>
+
+    <EditText
+        android:id="@+id/Birthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="生日"/>
+
+    <Button
+        android:id="@+id/btnRegister_Ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/btnBack_Main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+</LinearLayout>
